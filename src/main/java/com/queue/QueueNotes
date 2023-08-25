@@ -1,0 +1,36 @@
+
+Queue DS
+
+Linear data structure - FIFO
+2 Pointers - Front , Rear
+
+insertion -> only rear will participate
+delete -> only front will participate
+display -> front to rear
+
+
+
+Operation
+1. enqueue/insertion
+2. dequeue/deletion
+3. displaying
+
+
+Different Types:
+1. Normal Queue
+2. Circular Queue
+3. Dequeue - Double Ended Queue
+4. Predefined Q implementation
+
+
+Implmentation Normal Queue
+1. array
+2. linked list
+
+Implementation Circular Queue
+1. array
+2. linked list
+
+Implementation Dequeue
+1. array
+2. linked list

@@ -1,0 +1,96 @@
+ Introduction:
+ -------------
+ => Collection / Group / Sequence of characters is called as string.
+ => In java string is treated as an Object.
+ => If we consider any application, most commonly used object (datatype) String.
+
+ Ex: voter management system
+
+ 		voter id ----> int
+ 		name --------> string
+ 		fathername --> string
+ 		cont --------> string
+ 		dist --------> string
+ 		mbl ---------> int
+ 		addr --------> string
+ 		etc
+
+ 		**** 90% of data is nothing but string ****
+
+ => In java predefined string classes are existed, just we have to use.
+ => Java provided strings in four forms, based on our requirement
+
+ 	 1) java.lang.String
+ 	 2) java.lang.StringBuffer
+ 	 3) java.lang.StringBuilder
+ 	 4) java.util.StringTokenizer
+
+ => String class objects are immutable objects, if we are trying to perform any modifications, it wn't accept those modification but with those modifications a new object will be created, this concept is called as "IMMUTABILITY". (modifications are not allowed).
+
+ => StringBuffer class objects are mutable objects, if we are trying to perform any modifications, it accept those modification, with those modifications a new object wn't be created, this concept is called as "MUTABILITY". (modifications are allowed).
+
+     a> if the content is not fixed keep on changing, then we should go for String Buffer.
+     b> mutable object i.e. modifications are allowed.
+     c> 1.0 version
+     d> single thread based application
+     e> every method is synchronized.
+
+ => StringBuilder is same as StringBuffer. => StringBuffer objects are synchronized objects i.e. only one thread
+                                           => StringBuilder objects are non-synch obj i.e. multiple threads
+
+
+     StringBuilder is same as StringBuffer, except the following differences
+
+     StringBuffer:
+     -------------
+     => 1.0 version
+     => synchronized
+     => only one thread is allowed
+     => sequential flow of execution
+     => increases application time
+     => performance will be improved
+     => thread safe
+     => deprecated/outdated
+
+     StringBuilder:
+     --------------
+     => 1.5 version
+     => non-synchronized
+     => multiple threads are allowed
+     => parallel flow of execution
+     => decreases application time
+     => performance will be decreased
+     => not thread safe
+     => not deprecated/outdated
+
+ => StringTokenizer is an utility class, which is used to divide the given string into tokens.
+
+       "java is very easy" -----> ["java", "is", "very", "easy"]
+       "19-07-2023" ------------> ["19","07","2023"]
+       "07:50:34" --------------> ["07","50","34"]
+
+
+        String s = new String("data structures and algs with java");
+ 		StringTokenizer st = new StringTokenizer(s);
+ 		while(st.hasMoreTokens()){
+ 			System.out.println(st.nextToken());
+ 		}
+
+ 		data
+        structures
+        and
+        algs
+        with
+        java
+
+
+ String vs StringBuffer vs StringBuilder vs StringTokenizer
+ ----------------------------------------------------------
+
+ String: if the content is fixed, not changing, then we can go for String
+
+ StringBuffer: if the content is not fixed, keep on changing and only one thread is allowed to access, then we can go for StringBuffer.
+
+ StringBuilder: if the content is not fixed, keep on changing and multiple threads are allowed to access, then we can go for StringBuilder.
+
+ StringTokenizer: if we want to extract tokens one by one from String, then we can use ST

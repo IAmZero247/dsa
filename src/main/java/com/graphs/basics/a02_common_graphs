@@ -1,0 +1,29 @@
+1. undirected graph and  directed graph
+***************************************
+2. weighted and non weighted graph
+***************************************
+3. cyclic and acyclic graph
+***************************************
+4. trees ->undirected + acyclic + connected graph
+
+   a. Root node: The node at the top of the tree is called a root node.
+   b. Branches and Nodes: The edges of a tree graph are appropriately called branches,
+      and the vertices, as usual, are called nodes. (abcdefg)
+   c. Child_node and Parent_node:Any sub-node of a given node is called a child node, and
+      the concerned node is called the parent node of the subnode. (bce are child nodes of their parent node a)
+   d. Siblings: Child nodes of the same parent are called sibling nodes. sibling nodes are at the same
+      hierarchical level. (bce are sibling nodes)
+   e. Cosuin nodes: Nodes with different parents but which are at the same hierarchical level are called
+      cousin nodes. (g and d, g and f are cousin nodes)
+   f. Leaf nodes: The nodes at the lowermost level have no child nodes and are termed leaf nodes. (gdf)
+   g. If a tree has N nodes, it has N-1 edges;
+
+
+
+***************************************
+5. forest - disjoint collection of trees
+***************************************
+6. dag- direct acyclic graph
+***************************************
+7.  complete graph
+***************************************

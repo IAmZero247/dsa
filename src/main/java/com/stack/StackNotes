@@ -1,0 +1,38 @@
+Stack
+
+1. linear DS
+2. LIFO
+3. top - stack allows only one element to access from the top of the stack
+4. when ever we add one value , top will be incremented by one unit
+   when ever we delete one value , top will be decremented by one unit
+
+5. operations
+a. push| insertion
+b. pop | delete
+c. peek
+d. isEmpty
+e  size
+f  search
+
+stack can be implemented
+1. arrays
+2. linkedlist
+3. predefined
+
+
+problems on stack
+*****************
+balanced parenthesis
+infix prefix postfix expression
+infix to postfix conversion
+infix to prefix conversion
+
+postfix evaluation
+prefix evaluation
+
+
+
+
+
+
+

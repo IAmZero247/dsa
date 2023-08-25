@@ -1,7 +1,0 @@
-popular graphs:
-**************
-1. directed and undirected graph
-2. trees - undirected graph where any 2 vertices(nodes) are connected only one path
-3. forest - disjoint union of trees
-4. dag(directed acyclic graph) - directed graph with no directed cycles
-5. complete graph - every single pair of nodes are connected

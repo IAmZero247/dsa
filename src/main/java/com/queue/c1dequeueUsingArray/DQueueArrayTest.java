@@ -25,5 +25,6 @@ public class DQueueArrayTest {
         q.insertAtFront(80);
         q.display();  //80 10 40 50 70
         System.out.println(q.getSize()); //5
+
     }
 }

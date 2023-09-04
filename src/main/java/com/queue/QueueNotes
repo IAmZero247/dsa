@@ -20,7 +20,8 @@ Different Types:
 1. Normal Queue
 2. Circular Queue
 3. Dequeue - Double Ended Queue
-4. Predefined Q implementation
+4. PriorityQueue
+5. Predefined Q implementation
 
 
 Implmentation Normal Queue
@@ -32,5 +33,9 @@ Implementation Circular Queue
 2. linked list
 
 Implementation Dequeue
+1. array
+2. linked list
+
+Implementation PriorityQueue
 1. array
 2. linked list

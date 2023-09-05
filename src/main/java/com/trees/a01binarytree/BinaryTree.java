@@ -39,8 +39,32 @@ public class BinaryTree {
         System.out.println();
     }
 
-    public int countNodes(){
+    public int countNodes() {
         return BinaryTreeUtils.countNodes(root);
+    }
+
+    public int height(){
+        return BinaryTreeUtils.height(root);
+    }
+
+    public boolean search(int val){
+        return BinaryTreeUtils.search(root, val);
+    }
+
+
+    public int maxVal(){
+        return BinaryTreeUtils.max(root);
+    }
+
+    public int minVal(){
+        return BinaryTreeUtils.min(root);
+    }
+
+
+    public BinaryTree copy(){
+        BinaryTree result =new BinaryTree();
+        result.root= BinaryTreeUtils.copy(root);
+        return result;
     }
 
 

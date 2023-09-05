@@ -1,0 +1,26 @@
+1. Basic Trees
+2. Binary Tree
+   /**
+    * binary tree traversals (inorder,preorder,postorder)
+    * level order traversal
+    * count nodes
+    * sum of nodes
+    * height of the tree
+    * search operation
+    * max element in BT
+    * min element in BT
+    * equality of two BTs
+    * copy of tree
+    */
+3. Binary Search Tree
+  /**
+   * insert
+   * delete
+   * search
+   * max
+   * min
+   * remove all leaf
+   * print in range
+   * print root to leaf node path
+   */
+4. AVL

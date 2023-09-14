@@ -13,7 +13,8 @@ public class UtilityArraySorting {
         int[] a = new int[size];
         for(int i=0;i<a.length;i++)
         {
-            a[i] = r.nextInt(origin, bound);
+            //a[i] = r.nextInt(origin, bound);
+            a[i] = r.nextInt( bound);
         }
         System.out.println("Generated Array:->" +Arrays.toString(a));
         return a;

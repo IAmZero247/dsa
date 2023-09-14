@@ -168,7 +168,8 @@ public class A002_ArraySortMethod {
         Faker fk = new Faker();
         Student[] arr = new Student[size];
         for (int i=0; i<size; i++){
-            BigDecimal bd = new BigDecimal(r.nextDouble(25,95)).setScale(2, RoundingMode.HALF_UP);
+            //BigDecimal bd = new BigDecimal(r.nextDouble(25,95)).setScale(2, RoundingMode.HALF_UP);
+            BigDecimal bd = new BigDecimal(r.nextDouble()).setScale(2, RoundingMode.HALF_UP);
             Student s = new Student(100+i, fk.name().firstName() ,bd.doubleValue());
             arr[i]=s;
         }

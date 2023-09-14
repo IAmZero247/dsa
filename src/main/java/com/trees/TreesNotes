@@ -23,4 +23,31 @@
    * print in range
    * print root to leaf node path
    */
-4. AVL
+4. AVL - Self Balancing Tree
+
+Consider inserting in below
+skew tree 10->20->30 ----> RR=> left
+skew tree 10->30->20 ----> RL
+20 10 30     BT     10<-20->30
+20 30 10     BT     10<-20->30
+skew tree 30->10->20
+skew tree 30->20->10
+
+1. AVL trees ate SelfBT
+2. height of bT
+3. BalanceFactor for AVL -1 0 +1
+4  BF = height of left stree- height of right stree
+
+
+
+RR case -> Left Ro
+LL case -> right Ro
+LR case -> Left Ro and Right Ro
+RL case -> Right Ro and Left Ro
+
+
+bf>1 & v<ld --->
+
+bf>1 & v>ld
+b<-1 & v<rd
+b<-1 & v<

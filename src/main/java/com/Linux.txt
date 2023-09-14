@@ -1,0 +1,19 @@
+**********************************************************************************************************
+Features Of Unix/Linux:
+**********************************************************************************************************
+**********************************************************************************************************
+1. Multituser OS    ->win/unix/linux
+2. Multi Tasking    ->win/unix/linux
+3. Portable         ->linux/unix can run on different hardware
+    windows os is intel dependent/amd specific
+4. OpenSource / FreeWare
+5. Shell Scripting
+    backup script
+    data transfer script
+    data processing
+    automation of linux admin activities
+6. Secure Os
+     permission concept
+     read write and execute
+7. GUI
+**********************************************************************************************************

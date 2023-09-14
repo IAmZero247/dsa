@@ -18,14 +18,14 @@ public class GraphTesting {
         li.add(d);
         li.add(e);
        GraphAdjacencyMatrix gp = new GraphAdjacencyMatrix(li, GraphAdjacencyMatrix.GraphType.UNDIRECTED);
-        gp.addEdges(0,1);
-        gp.addEdges(0,2);
-        gp.addEdges(0,3);
-        gp.addEdges(1,3);
-        gp.addEdges(1,4);
-        gp.addEdges(2,3);
-        gp.addEdges(3,3);
-        gp.addEdges(3,4);
+        gp.addEdges(0,1,1);
+        gp.addEdges(0,2,2);
+        gp.addEdges(0,3,5);
+        gp.addEdges(1,3,2);
+        gp.addEdges(1,4,1);
+        gp.addEdges(2,3,1);
+        gp.addEdges(3,3,1);
+        gp.addEdges(3,4,1);
         System.out.println(gp.printGraphAdjacencyMatrix());
 
     }

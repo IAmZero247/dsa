@@ -14,8 +14,8 @@ public class BinaryTreeUtils {
         if(node==null){
             return;
         }
-        preOrder(node.left);
         System.out.print(node.val + " ");
+        preOrder(node.left);
         preOrder(node.right);
     }
 
@@ -26,8 +26,8 @@ public class BinaryTreeUtils {
         if(node==null){
             return;
         }
-        System.out.print(node.val + " ");
         inOrder(node.left);
+        System.out.print(node.val + " ");
         inOrder(node.right);
     }
 
@@ -37,8 +37,8 @@ public class BinaryTreeUtils {
             return;
         }
         postOrder(node.right);
-        System.out.print(node.val + " ");
         postOrder(node.left);
+        System.out.print(node.val + " ");
     }
 
 

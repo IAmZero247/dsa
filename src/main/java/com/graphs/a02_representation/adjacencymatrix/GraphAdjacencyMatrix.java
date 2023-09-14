@@ -21,10 +21,11 @@ public class GraphAdjacencyMatrix {
         this.type=type;
     }
 
-    public void addEdges(GNode a , GNode b){
-        adjacencyMatrix[a.index][b.index]=1;
+    public void addEdges(GNode a , GNode b, int cost){
+        //cost cant be zero
+        adjacencyMatrix[a.index][b.index]=cost;
         if(type.equals(GraphType.UNDIRECTED)){
-            adjacencyMatrix[b.index][a.index]=1;
+            adjacencyMatrix[b.index][a.index]=cost;
         }
         return;
     }
@@ -38,10 +39,11 @@ public class GraphAdjacencyMatrix {
     }
 
 
-    public void addEdges(int i1 , int i2){
-        adjacencyMatrix[i1][i2]=1;
+    public void addEdges(int i1 , int i2, int cost){
+        //cost cant be zero
+        adjacencyMatrix[i1][i2]=cost;
         if(type.equals(GraphType.UNDIRECTED)){
-            adjacencyMatrix[i2][i1]=1;
+            adjacencyMatrix[i2][i1]=cost;
         }
         return;
     }

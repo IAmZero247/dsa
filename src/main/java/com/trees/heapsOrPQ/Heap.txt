@@ -1,0 +1,27 @@
+Heap/PQ
+
+insertion
+deletion
+display
+peek
+
+Ascending PQ - Min Heap
+Desending PQ - Max Heap
+
+
+Predefined -> java.util.PriorityQueue
+    add
+    remove
+    peek
+
+
+left(i) -> 2*i +1
+right(i) -> 2*i+2
+
+
+     1
+  2      3
+4   5
+
+arr  0 1 2 3 4 5
+     1 2 3 4 5
